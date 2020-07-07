@@ -17,7 +17,7 @@ def read():
 
 setup(
     name='gep_python_coding_challenge',
-    version='0.0.1',
+    version='0.0.2',
     license='MIT',
     description='This package contains the beginner level assignments of the GEP Python Coding Challenge.',
     long_description=read(),

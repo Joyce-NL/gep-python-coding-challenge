@@ -29,6 +29,4 @@ def find_and_sum_multiples(maximum, number1, number2=None):
     print(sum_multiples)
     return sum_multiples
 
-find_and_sum_multiples(1000,3,5)
-
 
