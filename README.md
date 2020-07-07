@@ -5,7 +5,10 @@ This is a repository for the GEP Python Coding Challenge Assignments.
 Each function is developed to handle small changes in the problem definition.
 
 1.  Assignment 1 is a Python program to solve Project Euler problem 1.
-    https://projecteuler.net/problem=1
+    https://projecteuler.net/problem=1  
+    
+    To use this function type the following after installing the package:  
+    `from Problem01 import find_and_sum_multiples`  
 
     The function in this script takes 2 mandatory and 1 optional parameters.
     All parameters should be positive integers.
@@ -21,7 +24,10 @@ Each function is developed to handle small changes in the problem definition.
     Leaving out the 3rd parameter would result in the sum of all multiples of 3 under 1000.
 
 2.  Assignment 2 is a Python program to solve Project Euler problem 2.
-    https://projecteuler.net/problem=2
+    https://projecteuler.net/problem=2  
+    
+    To use this function type the following after installing the package:  
+    `from Problem02 import sumevenfibonaccinumbers`  
 
     This function is made to run on different ranges within the Fibonacci sequence.
     The function takes 2 parameters. These parameters should be positive integers or floats.
@@ -42,14 +48,17 @@ Each function is developed to handle small changes in the problem definition.
     `sumevenfibonaccinumbers(2, 10)`
 
 3.  Assignment 3 is a Python program to solve Project Euler 41.
-    https://projecteuler.net/problem=41
+    https://projecteuler.net/problem=41  
+    
+    To use this function type the following after installing the package:  
+    `from Problem41 import find_largest_pandigital_prime`   
 
     This function is made to run on numbers where the number of digits is in a specified range.
     The function takes 2 arguments that specify the range of the number of digits.
     The digits are assumed to be part of the base-10 numbering system.
     The possible number of digits in the base-10 system are 1, 2, 3, 4, 5, 6, 7, 8, 9.
 
-    **Syntax: `find_largest_pandigital_prime(min_digits, max_digits)`**
+    **Syntax: `(min_digits, max_digits)`**
 
     The pandigital with 1 digit is automatically excluded, because it only consists of the number 1 and
     that's not a prime number.
