@@ -86,3 +86,4 @@ You can run all tests by running the command `tox`.
 0.0.1 : First release.  
 0.0.2 : Removed function call at the end of the Problem01 module.  
 0.0.3 : Added the import statements to the Readme file.  
+0.0.4 : Improved the legibility of the Readme file.
