@@ -1,6 +1,7 @@
 # GEP_Python_Challenge
 GEP Coding Python Challenge
 
+##Description
 This is a repository for the GEP Python Coding Challenge Assignments.
 Each function is developed to handle small changes in the problem definition.
 
@@ -81,3 +82,7 @@ Each function is developed to handle small changes in the problem definition.
 This package also contains unit tests for each assignment.
 You can run all tests by running the command tox.
 
+##Version information:
+0.0.1 : First release.
+0.0.2 : Removed function call at the end of the Problem01 module.
+0.0.3 : Added the import statements to the Readme file.
